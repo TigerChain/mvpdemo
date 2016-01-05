@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.jun.mvpdemo01.prestener.UserPrestener;
+import com.jun.mvpdemo01.prestener.UserPrestenerImpl;
 import com.jun.mvpdemo01.view.LoginView;
 
 
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements LoginView,View.On
 
         initView() ;
 
-        userPrestener = new UserPrestener(this) ;
+        userPrestener = new UserPrestenerImpl(this) ;
 
 
 
